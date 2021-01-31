@@ -1,9 +1,11 @@
+@Library('pipeline-library') _
+
 pipeline {
   agent { label 'linux' }
   stages {
-    stage ('test') {
+    stage('build') {
       steps {
-        echo "hello"
+        buildCpp(target: 'target')
       }
     }
   }
