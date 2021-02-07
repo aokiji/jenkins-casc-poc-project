@@ -1,6 +1,7 @@
 #define BOOST_TEST_MAIN
 #define BOOST_TEST_DYN_LINK
 
+#include <iostream>
 #include <boost/test/unit_test.hpp>
 #include <boost/test/output_test_stream.hpp>
 
