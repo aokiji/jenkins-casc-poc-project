@@ -1,4 +1,4 @@
-@Library('pipeline-library') _
+@Library('pipeline-library@dev') _
 
 cppPipeline(
   targets: [
